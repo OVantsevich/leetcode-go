@@ -1,14 +1,14 @@
 package main
 
-func sum(arr []int) int {
-	var s int
-
-	for _, n := range arr {
-		s += n
-	}
-
-	return s
-}
+//func sum(arr []int) int {
+//	var s int
+//
+//	for _, n := range arr {
+//		s += n
+//	}
+//
+//	return s
+//}
 
 func canThreePartsEqualSum(arr []int) bool {
 	s := sum(arr)
